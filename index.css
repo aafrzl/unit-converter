@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  height: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input {
+  font-family: 'Inter', sans-serif;
+  width: 118px;
+  height: 85px;
+  border-radius: 5px;
+  background: none;
+  border: 2px solid #b295ff;
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  padding: 0;
+  text-align: center;
+}
+
+button {
+  margin: 20px;
+  width: 117px;
+  height: 42px;
+  font-size: 20px;
+  background: #ffffff;
+  border: 0px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f4f4f4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero {
+  background-color: #6943ff;
+  color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.main {
+  background: #1f2937;
+  padding: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  background: #273549;
+  padding: 5px;
+  padding: 10px 10px;
+  margin: 23px;
+  width: 500px;
+  height: 108px;
+  border-radius: 5px;
+}
+
+.section h3 {
+  color: #ccc1ff;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+
+.section p {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+
+.footer {
+  background: #273549;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer h3 {
+  color: #ccc1ff;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer a {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer p {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
